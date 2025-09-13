@@ -1,13 +1,17 @@
 {
-    "name": "Sample Web Browser Module",
-    "id": "developer.Sample_Web_Module",
-    "author": "developer",
+    "name": "Quran.com",
+    "id": "NSY.quran",
+    "author": "NSY",
+    "author-id": "684fd894b2e21f06cdd3692b",
     "version": "1.0.0",
-    "description": "A developer template to embed websites within Nexus.",
-    "platforms": ["win32", "linux", "darwin"],
+    "description": "Embedded Quran.com into Nexus as a website",
+    "platforms": [
+        "win32",
+        "linux"
+    ],
     "link": "https://github.com/aarontburn/nexus-template-webpage",
     "build": {
-        "build-version": 1,
+        "build-version": 2,
         "excluded": [
             "electron.ts"
         ],
